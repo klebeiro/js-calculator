@@ -140,6 +140,8 @@ sum.addEventListener("click", function(e) {
 });
 
 subt.addEventListener("click", function(e) {
+    lastChar = display.innerHTML.charAt(display.innerHTML.length - 1);
+
     if(lastChar != "+" && lastChar != "-" && lastChar != "*" && lastChar != "/" && lastChar != ".") {
         display.innerHTML += "-";
     }
@@ -148,6 +150,8 @@ subt.addEventListener("click", function(e) {
 });
 
 mult.addEventListener("click", function(e) {
+    lastChar = display.innerHTML.charAt(display.innerHTML.length - 1);
+
     if(lastChar != "+" && lastChar != "-" && lastChar != "*" && lastChar != "/" && lastChar != ".") {
         display.innerHTML += "*";
     }
@@ -156,6 +160,8 @@ mult.addEventListener("click", function(e) {
 });
 
 div.addEventListener("click", function(e) {
+    lastChar = display.innerHTML.charAt(display.innerHTML.length - 1);
+
     if(lastChar != "+" && lastChar != "-" && lastChar != "*" && lastChar != "/" && lastChar != ".") {
         display.innerHTML += "/";
     }
@@ -164,6 +170,8 @@ div.addEventListener("click", function(e) {
 });
 
 dot.addEventListener("click", function(e) {
+    lastChar = display.innerHTML.charAt(display.innerHTML.length - 1);
+
     if(lastChar != "+" && lastChar != "-" && lastChar != "*" && lastChar != "/" && lastChar != ".") {
         display.innerHTML += ".";
     }
