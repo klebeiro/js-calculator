@@ -57,6 +57,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color:#abc3e6;
 }
 
 button:focus {
@@ -75,6 +76,8 @@ button:focus {
     border-width: 4px;
     border-color: black;
     border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .output-panel {
@@ -90,4 +93,6 @@ button:focus {
     border-width: 4px;
     border-color: var(--dark-blue);
     border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
